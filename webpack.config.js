@@ -4,8 +4,8 @@ module.exports = {
   entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'tinper-mirror.js',
-    library: 'TinperMirror',
+    filename: 'tinper-mirrorx.js',
+    library: 'TinperMirrorx',
     libraryTarget: 'umd'
   },
   module: {
