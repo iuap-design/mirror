@@ -1,7 +1,12 @@
 {
   "name": "tinper-mirrorx",
+<<<<<<< HEAD
   "version": "0.0.1",
   "description": "A React framework with minimal API and zero boilerplate.",
+=======
+  "version": "0.0.3",
+  "description": "A React framework.",
+>>>>>>> cb2eed2fac3320e2f79219e9ee401c5fae768cdf
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watch",
@@ -9,7 +14,7 @@
     "coveralls": "cat ./coverage/lcov.info | coveralls",
     "lint": "eslint src test",
     "build": "rm -rf lib && babel src -d lib --no-comments",
-    "bundle": "webpack && webpack -p --output-filename mirror.min.js"
+    "bundle": "webpack && webpack -p --output-filename tinper-mirrorx.min.js"
   },
   "main": "./lib/index.js",
   "keywords": [
@@ -24,7 +29,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:mirrorjs/mirror.git"
+    "url": "git@github.com:iuap-design/mirror.git"
   },
   "license": "MIT",
   "dependencies": {
